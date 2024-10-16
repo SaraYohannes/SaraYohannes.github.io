@@ -7,21 +7,21 @@ h1 {
     text-align: center;
     font-family: Verdana;
     font-size: 20px;
-    box-sizing: border-box;
+    display: grid;
 }
 h2 {
     color: black;
     text-align: center;
     font-family: Arial;
     font-size: 14px;
-    box-sizing: border-box;
+    display: grid;
 }
 p {
     text-align: center;
     color: black;
     font-family: Verdana;
     font-size: 12px;
-    box-sizing: border-box;
+    display: grid;
 }
 p_projectDescription_left {
     text-align: left;
