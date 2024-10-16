@@ -1,4 +1,28 @@
 ﻿body
 {
-    background-color: darkred;
+    background-color: paleturquoise;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+}
+p_projectDescription_left {
+    text-align: left;
+    color: black;
+    font-family: Verdana;
+    font-size: 12px;
+}
+p_projextDescription_right {
+    text-align: right;
+    color: black;
+    font-family: Verdana;
+    font-size: 12px;
 }
