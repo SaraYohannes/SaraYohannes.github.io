@@ -26,7 +26,6 @@ h2 {
 .flex-projects {
     display: flex;
     flex-direction: column;
-    background-color: indigo;
     color: black;
 }
 p {
@@ -43,9 +42,7 @@ p {
 }
 p_projectDescription_left {
     text-align: left;
-    background-color: white;
 }
 p_projectDescription_right {
     text-align: right;
-    background-color: yellow;
 }
