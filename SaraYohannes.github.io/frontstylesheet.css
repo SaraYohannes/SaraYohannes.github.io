@@ -37,7 +37,7 @@ p {
     display: grid;
 }
 .flex-projects > div {
-    text-align: left;
+    
     font-family: Verdana;
     font-size: 12px;
     display: grid;
