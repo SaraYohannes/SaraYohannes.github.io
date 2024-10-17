@@ -36,6 +36,13 @@ p {
     font-size: 12px;
     display: grid;
 }
+.flex-projects > div {
+    text-align: left;
+    color: black;
+    font-family: Verdana;
+    font-size: 12px;
+    display: grid;
+}
 p_projectDescription_left {
     text-align: left;
     color: black;
