@@ -43,8 +43,10 @@ p {
 p_projectDescription_left {
     text-align: left;
     justify-items: center;
+    flex-direction: row;
 }
 p_projectDescription_right {
     text-align: right;
     justify-items: center;
+    flex-direction: row-reverse;
 }
