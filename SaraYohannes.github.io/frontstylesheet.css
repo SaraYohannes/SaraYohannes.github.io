@@ -1,6 +1,6 @@
 ﻿body
 {
-    background-color: mintcream;
+    background-color: white;
 }
 h1 {
     color: black;
@@ -20,8 +20,14 @@ h2 {
     display: flex;
     align-items: stretch;
 }
+.flex-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
 .flex-container > div {
     margin: 12px;
+
 }
 p {
     text-align: center;
