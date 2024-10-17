@@ -16,6 +16,13 @@ h2 {
     font-size: 14px;
     display: grid;
 }
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}
+.flex-container > div {
+    margin: 12px;
+}
 p {
     text-align: center;
     color: black;
