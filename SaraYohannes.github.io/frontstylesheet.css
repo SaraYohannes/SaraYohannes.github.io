@@ -46,6 +46,6 @@ p_projectDescription_left {
 p_projectDescription_right {
     text-align: right;
 }
-.pictures {
+.flex-container > pictures {
     place-items: center;
 }
