@@ -25,8 +25,8 @@ h2 {
 }
 .flex-projects {
     display: flex;
-    align-content: center;
     background-color: indigo;
+    align-content: center;
     color: white;
 }
 p {
@@ -36,18 +36,15 @@ p {
     font-size: 12px;
     display: grid;
 }
-.flex-projects > div {
-    
+.flex-projects > div {    
     font-family: Verdana;
     font-size: 12px;
     display: grid;
 }
 p_projectDescription_left {
     text-align: left;
-    color: black;
     font-family: Verdana;
     font-size: 12px;
-    display: grid;
 }
 p_projectDescription_right {
     text-align: right;
