@@ -42,7 +42,9 @@ p {
 }
 p_projectDescription_left {
     text-align: left;
+    justify-items: center;
 }
 p_projectDescription_right {
     text-align: right;
+    justify-items: center;
 }
