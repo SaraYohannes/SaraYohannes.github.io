@@ -25,6 +25,7 @@ h2 {
 }
 .flex-projects {
     display: flex;
+    flex-direction: column;
     background-color: indigo;
     color: white;
 }
