@@ -46,3 +46,6 @@ p_projectDescription_left {
 p_projectDescription_right {
     text-align: right;
 }
+.pictures {
+    place-items: center;
+}
