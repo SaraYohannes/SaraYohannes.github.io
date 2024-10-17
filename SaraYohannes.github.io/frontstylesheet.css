@@ -27,6 +27,7 @@ h2 {
     display: flex;
     align-content: center;
     background-color: indigo;
+    color: white;
 }
 p {
     text-align: center;
