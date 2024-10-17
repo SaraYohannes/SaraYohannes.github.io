@@ -42,7 +42,9 @@ p {
 }
 p_projectDescription_left {
     text-align: left;
+    background-color: white;
 }
 p_projectDescription_right {
     text-align: right;
+    background-color: yellow;
 }
