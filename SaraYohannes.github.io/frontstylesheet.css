@@ -53,10 +53,10 @@ p_projectDescription_right {
 .information-column > div {
     margin: 20px;
 }
-.header div {
-    margin: 0px;
+.header > div {
     display: block;
     background-repeat: no-repeat;
-    width: 500px;
     height: 500px;
+    width: 500px;
+    margin: 0px;
 }
