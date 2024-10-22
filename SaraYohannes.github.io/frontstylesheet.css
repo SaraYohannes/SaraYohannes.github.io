@@ -54,5 +54,6 @@ p_projectDescription_right {
     margin: 20px;
 }
 .header > div {
-    margin: 50px;
+    margin: 0px;
+    background-repeat: no-repeat;
 }
