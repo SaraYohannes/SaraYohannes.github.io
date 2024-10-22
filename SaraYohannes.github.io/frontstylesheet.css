@@ -60,6 +60,6 @@ p_projectDescription_right {
     margin: 0px;
 }
 .illu > div {
-    /*overflow: hidden;*/
+    overflow: hidden;
     background-repeat: no-repeat;
 }
