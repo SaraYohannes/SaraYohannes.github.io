@@ -55,6 +55,7 @@ p_projectDescription_right {
 }
 .header > div {
     background-repeat: no-repeat;
+    background-color: turquoise;
     height: 500px;
     width: 500px;
     margin: 0px;
