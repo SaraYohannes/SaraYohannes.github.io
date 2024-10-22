@@ -54,12 +54,10 @@ p_projectDescription_right {
     margin: 20px;
 }
 .header > div {
-    display: block;
     height: 500px;
     width: 500px;
     margin: 0px;
 }
 .illu > div {
-    overflow: hidden;
     background-repeat: no-repeat;
 }
