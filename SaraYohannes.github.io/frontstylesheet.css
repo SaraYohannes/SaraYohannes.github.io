@@ -50,3 +50,9 @@ p_projectDescription_right {
     justify-items: center;
     flex-direction: row-reverse;
 }
+.information-column > div {
+    margin: 20px;
+}
+.header > div {
+    margin: 50px;
+}
