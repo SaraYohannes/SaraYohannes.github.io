@@ -54,8 +54,10 @@ p_projectDescription_right {
     margin: 20px;
 }
 .header > div {
+    display: block;
     background-repeat: no-repeat;
     background-color: turquoise;
+    border-bottom: 5px black dashed;
     height: 500px;
     width: 500px;
     margin: 0px;
