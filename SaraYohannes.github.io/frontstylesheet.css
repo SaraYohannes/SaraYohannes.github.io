@@ -14,12 +14,14 @@
 }
 .column.contact-info {
     background-color: greenyellow;
+    float: left;
 }
 .column.project-info {
     background-color: forestgreen;
 }
 .column.aboutme-info {
     background-color: olive;
+    float: right;
 }
 .footer {
     background-color: palevioletred;
