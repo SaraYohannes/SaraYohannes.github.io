@@ -11,6 +11,15 @@
 .column {
     background-color: green;
 }
+.column.contact-info {
+    background-color: greenyellow;
+}
+.column.project-info {
+    background-color: forestgreen;
+}
+.column.aboutme-info {
+    background-color: olive;
+}
 .footer {
     background-color: palevioletred;
 }
