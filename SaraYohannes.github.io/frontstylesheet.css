@@ -12,7 +12,7 @@
     background-color: palevioletred;
 }
 
-.htop p {
+.htop > p {
     text-align: left;
 }
 
