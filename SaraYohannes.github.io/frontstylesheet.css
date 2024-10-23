@@ -2,7 +2,7 @@
 {
     background-color: white;
 }
-.header {
+.header > div {
     background-color: skyblue;
 }
 .column {
