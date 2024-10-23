@@ -2,7 +2,7 @@
 {
     background-color: white;
 }
-.header > div {
+.header {
     background-color: skyblue;
 }
 .column {
@@ -10,6 +10,10 @@
 }
 .footer {
     background-color: palevioletred;
+}
+
+.header p {
+    text-align: left;
 }
 
 
