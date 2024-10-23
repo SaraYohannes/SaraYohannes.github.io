@@ -2,6 +2,18 @@
 {
     background-color: white;
 }
+.header {
+    background-color: skyblue;
+}
+.column {
+    background-color: green;
+}
+.footer {
+    background-color: palevioletred;
+}
+
+
+
 h1 {
     color: black;
     text-align: center;
@@ -52,15 +64,6 @@ p_projectDescription_right {
 }
 .information-column > div {
     margin: 20px;
-}
-.header > div {
-    display: block;
-    background-repeat: no-repeat;
-    background-color: turquoise;
-    border-bottom: 5px black dashed;
-    height: 500px;
-    width: 500px;
-    margin: 0px;
 }
 pict:hover {
     opacity: 1;
