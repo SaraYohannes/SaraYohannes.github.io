@@ -5,15 +5,14 @@
 .htop {
     background-color: skyblue;
 }
+.htop > p {
+    text-align: center;
+}
 .column {
     background-color: green;
 }
 .footer {
     background-color: palevioletred;
-}
-
-.htop > p {
-    text-align: center;
 }
 
 
