@@ -29,6 +29,7 @@
 }
 .footer {
     background-color: palevioletred;
+    display: flex;
     height: 100px;
     margin: 0;
 }
