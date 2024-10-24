@@ -67,7 +67,7 @@ body {
  /*   flex-direction: row;*/
     width: 90%;
     margin: 10px 5px;
-    align-content: flex-start;
+    align-content: center;
 }
 .footer {
     background-color: lightgray;
