@@ -27,7 +27,6 @@ body {
     width: 90%;
     margin: 20px;
     align-content: stretch;
-    justify-content: center;
 }
 illustration { /*describes what the picture is in*/
     background-color: navajowhite;
@@ -37,6 +36,7 @@ illustration { /*describes what the picture is in*/
 .self-portrait { /*describes the properties the picture should have*/ 
     position: absolute;
     border-radius: 5px;
+    justify-content: center;
     max-width: 10%;
     height: auto;  
     right: 40px;
