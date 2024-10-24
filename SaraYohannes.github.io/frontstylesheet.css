@@ -5,8 +5,8 @@
 .htop {
     background-color: skyblue;
     margin: 0px;
-    top: 0px;
     height: 200px;
+    text-align: center;
 }
 .htop > p {
     text-align: center;
