@@ -39,13 +39,14 @@ body {
     height: auto;
     width: 100%;
     margin: 10px;
-    /*justify-content: center;*/
-    align-items: center;
+    /*justify-content: center;*/ /*centers items in the vertical alignment*/
+    align-items: center; /*center items in the horizontal alignment*/
 }
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
     object-fit: contain;
     max-width: 90%;
+    margin-top: 10px;
     height: auto;
 }
 .column.project-info {
