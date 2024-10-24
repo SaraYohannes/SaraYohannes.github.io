@@ -8,7 +8,7 @@ body {
 }
 .htop {
     display: flex;
-    background-color: darkgray;
+    background-color: lightgray;
     height: 200px;
     padding: 70px;
 }
