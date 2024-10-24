@@ -32,7 +32,7 @@ body {
     flex-shrink: 1;
     flex-basis: 17%;
 }
-.work-space {
+.content-space {
     background-color: ghostwhite;
     display: flex;
     flex-direction: column;
@@ -50,13 +50,19 @@ body {
     height: auto;
 }
 .column.project-info {
-    background-color: forestgreen;
+    background-color: lightgrey;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 33%;
 }
 .column.aboutme-info {
-    background-color: olive;
+    background-color: lightgrey;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50%;
 }
 .footer {
-    background-color: palevioletred;
+    background-color: lightgray;
     display: flex;
     height: 100px;
 }
