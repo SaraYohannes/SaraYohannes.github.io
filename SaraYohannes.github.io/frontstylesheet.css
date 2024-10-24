@@ -33,12 +33,12 @@ illustration {
     background-color: navajowhite;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
     max-width: 25%;
     height: auto;  
 }
 .self-portrait {
     position: absolute;
+    border-radius: 5px;
 }
 .column.project-info {
     background-color: forestgreen;
