@@ -24,7 +24,8 @@ body {
 }
 .column.contact-info.work-space {
     background-color: indianred;
-    
+    position: fixed;
+    left: 20px;
 }
 .column.project-info {
     background-color: forestgreen;
