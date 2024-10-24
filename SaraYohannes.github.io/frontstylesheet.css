@@ -30,15 +30,15 @@ body {
 }
 illustration {
     display: block;
-    background-color: navajowhite;
+    /*background-color: navajowhite;*/
     margin-left: auto;
     margin-right: auto;
-    max-width: 25%;
-    height: auto;  
 }
 .self-portrait {
     position: absolute;
     border-radius: 5px;
+    max-width: 25%;
+    height: auto;  
 }
 .column.project-info {
     background-color: forestgreen;
