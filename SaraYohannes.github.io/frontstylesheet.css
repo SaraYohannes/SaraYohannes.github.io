@@ -31,13 +31,13 @@ body {
 illustration {
     display: block;
     /*background-color: navajowhite;*/
-    margin-left: auto;
-    margin-right: auto;
 }
 .self-portrait {
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
-    max-width: 5%;
+    max-width: 10%;
     height: auto;  
 }
 .column.project-info {
