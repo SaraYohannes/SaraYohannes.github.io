@@ -28,6 +28,14 @@ body {
     margin: 20px;
     align-content: stretch;
 }
+.illustration {
+    display: block;
+    background-color: navajowhite;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
 .column.project-info {
     background-color: forestgreen;
 }
