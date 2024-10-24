@@ -22,7 +22,7 @@ body {
 }
 .column {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 700px;
     justify-content: center;
 }
