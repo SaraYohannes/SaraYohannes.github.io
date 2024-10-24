@@ -64,7 +64,7 @@ body {
 .text-boxes {
     background-color: whitesmoke;
     width: 90%;
-/*    margin: 10px 5px;*/
+    margin: 20px 5px;
     align-content: center;
 }
 .footer {
