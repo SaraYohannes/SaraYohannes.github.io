@@ -10,7 +10,7 @@ body {
     display: flex;
     background-color: skyblue;
     height: 200px;
-    margin: 70px;
+    padding: 70px;
 }
 .column {
     display: flex;
