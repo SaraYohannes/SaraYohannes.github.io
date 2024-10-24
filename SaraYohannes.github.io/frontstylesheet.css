@@ -10,8 +10,8 @@
 }
 .column {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    align-content: stretch;
 }
 .column.contact-info {
     background-color: greenyellow;
