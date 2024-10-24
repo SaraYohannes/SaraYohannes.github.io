@@ -22,7 +22,7 @@ body {
 }
 .column {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 700px;
     justify-content: center;
 }
@@ -31,6 +31,7 @@ body {
 }
 .work-space {
     display: flex;
+    flex-direction: column;
     background-color: lightgray;
     height: 220px;
     width: 95%;
