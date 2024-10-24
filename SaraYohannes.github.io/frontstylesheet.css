@@ -31,6 +31,8 @@ body {
 illustration {
     display: block;
     /*background-color: navajowhite;*/
+    align-content: center;
+    margin: auto;
 }
 .self-portrait {
     position: absolute;
