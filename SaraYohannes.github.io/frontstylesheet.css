@@ -26,8 +26,8 @@ body {
     background-color: indianred;
     overflow: auto;
     margin: auto;
-    height: 680px;
-    padding: 10px;
+    height: 660px;
+    padding: 20px;
 
 }
 .column.project-info {
