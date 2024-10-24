@@ -28,17 +28,13 @@ body {
     margin: 20px;
     align-content: stretch;
 }
-illustration {
-    display: block;
+illustration { /*describes what the picture is in*/
     background-color: navajowhite;
-    align-content: center;
-    justify-content: center;
-    /*margin: auto;*/
+    display: block;
+    padding: 20px;
 }
-.self-portrait {
+.self-portrait { /*describes the properties the picture should have*/ 
     position: absolute;
-    margin-left: 20px;
-    margin-right: 20px;
     border-radius: 5px;
     max-width: 10%;
     height: auto;  
