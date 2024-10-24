@@ -61,6 +61,13 @@ body {
     flex-shrink: 1;
     flex-basis: 50%;
 }
+.text-boxes {
+    background-color: whitesmoke;
+    display: flex;
+    width: 90%;
+    margin: 10px 5px;
+    align-items: flex-start;
+}
 .footer {
     background-color: lightgray;
     display: flex;
