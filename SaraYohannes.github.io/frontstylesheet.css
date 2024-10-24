@@ -8,9 +8,16 @@ body {
 }
 .htop {
     display: flex;
-    background-color: skyblue;
+    background-color: lightgrey;
     height: 200px;
     padding: 70px;
+}
+.banner { /*describes the properties the picture should have*/
+    position: absolute;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
 }
 .column {
     display: flex;
@@ -28,7 +35,7 @@ body {
     margin: 20px;
     align-content: stretch;
 }
-illustration { /*describes what the picture is in*/
+.illustration { /*describes what the picture is in*/
     background-color: navajowhite;
     padding: 20px;
 }
