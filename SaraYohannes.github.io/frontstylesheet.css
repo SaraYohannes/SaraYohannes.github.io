@@ -5,6 +5,7 @@
 .htop {
     background-color: skyblue;
     margin: 0px;
+    border: none;
     height: 200px;
     text-align: center;
     justify-items: center;
