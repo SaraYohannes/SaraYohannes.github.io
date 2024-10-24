@@ -45,6 +45,7 @@ body {
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
     object-fit: contain;
+    top: 10px;
     max-width: 90%;
     height: auto;
 }
