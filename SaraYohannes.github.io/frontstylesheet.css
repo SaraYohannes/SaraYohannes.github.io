@@ -28,13 +28,13 @@ body {
 }
 .column.contact-info {
     background-color: greenyellow;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 .work-space {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
-    flex-shrink: 1;
     height: auto;
     width: 20%;
     margin: 10px;
