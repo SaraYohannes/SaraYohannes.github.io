@@ -24,10 +24,8 @@ body {
 }
 .work-space {
     background-color: indianred;
-    overflow: auto;
     height: 660px;
     padding: 20px;
-
 }
 .column.project-info {
     background-color: forestgreen;
