@@ -29,12 +29,12 @@ body {
     align-content: stretch;
 }
 illustration { /*describes what the picture is in*/
+    display: block;
     background-color: navajowhite;
     padding: 20px;
-    display: block;
 }
 .self-portrait { /*describes the properties the picture should have*/ 
-    position: absolute;
+    /*position: absolute;*/
     border-radius: 5px;
     max-width: 10%;
     height: auto;  
