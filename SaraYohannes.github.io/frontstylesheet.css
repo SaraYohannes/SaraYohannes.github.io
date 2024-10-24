@@ -30,13 +30,13 @@ body {
     background-color: greenyellow;
 }
 .work-space {
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
-    height: 220px;
+    height: auto;
     width: 20%;
     margin: 10px;
-/*    justify-content: center;*/
+    justify-content: center;
     align-content: flex-start;
 }
 .self-portrait { /*describes the properties the picture should have*/
