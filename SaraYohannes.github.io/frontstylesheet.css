@@ -25,7 +25,6 @@ body {
 .work-space {
     background-color: indianred;
     overflow: auto;
-    margin: auto;
     height: 660px;
     padding: 20px;
 
