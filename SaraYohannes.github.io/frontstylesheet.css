@@ -36,7 +36,7 @@ body {
     width: 90%;
     margin: 10px;
     justify-content: center;
-    align-content: stretch;
+    align-content: flex-start;
 }
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
