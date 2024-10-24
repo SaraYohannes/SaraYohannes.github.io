@@ -32,10 +32,10 @@ body {
 .work-space {
     display: flex;
     background-color: lightgray;
-    height: 660px;
+    height: 220px;
     width: 90%;
     margin: 10px;
-    justify-content: center;
+/*    justify-content: center;*/
     align-content: flex-start;
 }
 .self-portrait { /*describes the properties the picture should have*/
