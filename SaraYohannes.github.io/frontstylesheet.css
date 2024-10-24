@@ -19,6 +19,10 @@
     background-color: greenyellow;
     float: left;
 }
+.column.contact-info.work-space {
+    padding: 20px;
+    background-color: indianred;
+}
 .column.project-info {
     background-color: forestgreen;
 }
