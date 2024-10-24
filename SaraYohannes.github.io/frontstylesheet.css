@@ -39,8 +39,8 @@ illustration { /*describes what the picture is in*/
     border-radius: 5px;
     max-width: 10%;
     height: auto;  
-   /* right: 40px;
-    left: 40px;*/
+    right: 40px;
+    left: 40px;
 }
 .column.project-info {
     background-color: forestgreen;
