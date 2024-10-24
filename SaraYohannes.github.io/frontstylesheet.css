@@ -40,12 +40,12 @@ body {
     width: 100%;
     margin: 10px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
     object-fit: contain;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 .column.project-info {
