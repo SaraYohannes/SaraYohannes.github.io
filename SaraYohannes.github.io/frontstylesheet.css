@@ -31,7 +31,7 @@ body {
 }
 .work-space {
     display: flex;
-    background-color: indianred;
+    background-color: lightgray;
     height: 660px;
     width: 90%;
     margin: 20px;
@@ -41,7 +41,7 @@ body {
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
     object-fit: contain;
-    max-width: 10%;
+    max-width: 15%;
     height: auto;
 }
 .column.project-info {
