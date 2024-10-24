@@ -37,7 +37,7 @@ illustration {
 .self-portrait {
     position: absolute;
     border-radius: 5px;
-    max-width: 25%;
+    max-width: 5%;
     height: auto;  
 }
 .column.project-info {
