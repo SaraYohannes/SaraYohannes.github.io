@@ -30,6 +30,7 @@ body {
     background-color: greenyellow;
     flex-grow: 0;
     flex-shrink: 1;
+    flex-basis: 17%;
 }
 .work-space {
     background-color: lightgray;
