@@ -1,11 +1,12 @@
 ﻿body {
     background-color: white;
     margin: 0px;
+    border: none;
 }
 .htop {
     background-color: skyblue;
-    border: none;
     height: 200px;
+    padding-top: 100px;
     text-align: center;
     justify-items: center;
 }
