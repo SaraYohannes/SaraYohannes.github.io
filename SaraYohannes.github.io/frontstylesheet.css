@@ -73,7 +73,7 @@ body {
     display: flex;
     height: 100px;
 }
-@media (max-width: 480px) {
+@media (max-width: 900px) {
     .column {
         flex-direction: column;
     }
