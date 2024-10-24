@@ -20,12 +20,6 @@ body {
     height: 200px;
     padding: 0px;
 }
-.column {
-    display: flex;
-    flex-direction: row;
-    height: 700px;
-    justify-content: center;
-}
 .column.contact-info {
     background-color: lightgrey;
     flex-grow: 0;
@@ -55,6 +49,12 @@ body {
     flex-shrink: 1;
     flex-basis: 33%;
 }
+.column {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: center;
+}
 .column.aboutme-info {
     background-color: lightgrey;
     flex-grow: 0;
@@ -64,9 +64,8 @@ body {
 .text-boxes {
     background-color: whitesmoke;
     width: 90%;
-    margin: 10px 5px;
+/*    margin: 10px 5px;*/
     align-content: center;
-    justify-content: center;
 }
 .footer {
     background-color: lightgray;
