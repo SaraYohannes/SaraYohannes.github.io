@@ -16,7 +16,7 @@ body {
     position: absolute;
     border-radius: 4px;
     max-width: 1920px;
-    object-fit: contain;
+    object-fit: scale-down;
     height: auto;
     padding: 0px;
 }
