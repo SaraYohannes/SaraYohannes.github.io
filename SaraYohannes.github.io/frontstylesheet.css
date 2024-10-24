@@ -36,12 +36,7 @@ body {
     margin: 20px;
     align-content: stretch;
 }
-.illustration { /*describes what the picture is in*/
-    background-color: navajowhite;
-    padding: 20px;
-}
 .self-portrait { /*describes the properties the picture should have*/
-    position: absolute;
     justify-self: center;
     margin-right: auto;
     margin-left: auto;
