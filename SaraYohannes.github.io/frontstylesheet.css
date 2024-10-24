@@ -35,8 +35,10 @@ illustration {
     margin-right: auto;
     border-radius: 5px;
     max-width: 25%;
-    height: auto;
-    
+    height: auto;  
+}
+.self-portrait {
+    position: absolute;
 }
 .column.project-info {
     background-color: forestgreen;
