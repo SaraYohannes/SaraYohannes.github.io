@@ -65,7 +65,8 @@ body {
     background-color: whitesmoke;
     width: 90%;
     margin: 20px 5px;
-    align-content: center;
+    /*align-content: center;*/
+    text-align: center;
 }
 .footer {
     background-color: lightgray;
