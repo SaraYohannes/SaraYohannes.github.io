@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 72,
+          "DockedWidth": 106,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "frontstylesheet.css",
               "ToolTip": "C:\\Users\\saray\\websites\\SaraYohannes.github.io\\SaraYohannes.github.io\\frontstylesheet.css",
               "RelativeToolTip": "frontstylesheet.css",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCIAAAARAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB8AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-22T16:12:49.746Z",
               "EditorCaption": ""
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "DockedWidth": 160,
+          "DockedWidth": 126,
           "SelectedChildIndex": 0,
           "Children": [
             {
