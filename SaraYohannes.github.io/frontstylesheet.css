@@ -25,7 +25,7 @@ body {
 .work-space {
     background-color: indianred;
     height: 660px;
-    padding: 20px;
+    padding: 20px 20px;
     box-sizing: border-box;
 }
 .column.project-info {
