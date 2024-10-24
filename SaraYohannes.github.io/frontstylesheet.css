@@ -1,4 +1,7 @@
-﻿body {
+﻿* {
+    box-sizing: border-box;
+}
+body {
     background-color: white;
     margin: 0px;
     border: none;
@@ -20,8 +23,8 @@
     float: left;
 }
 .column.contact-info.work-space {
-    padding: 20px;
     background-color: indianred;
+    
 }
 .column.project-info {
     background-color: forestgreen;
