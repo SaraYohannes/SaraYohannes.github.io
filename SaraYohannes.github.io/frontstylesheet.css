@@ -24,6 +24,7 @@ body {
 .work-space {
     background-color: indianred;
     height: 660px;
+    width: 90%;
     margin: 20px;
     align-content: stretch;
 }
