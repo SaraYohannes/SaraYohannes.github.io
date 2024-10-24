@@ -1,10 +1,9 @@
-﻿body
-{
+﻿body {
     background-color: white;
+    margin: 0px;
 }
 .htop {
     background-color: skyblue;
-    margin: 0px;
     border: none;
     height: 200px;
     text-align: center;
