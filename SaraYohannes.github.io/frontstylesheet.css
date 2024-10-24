@@ -22,7 +22,7 @@ body {
     background-color: greenyellow;
     float: left;
 }
-.column.contact-info.work-space {
+.work-space {
     background-color: indianred;
     overflow: auto;
     position: absolute;
