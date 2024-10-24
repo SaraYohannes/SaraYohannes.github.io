@@ -27,19 +27,20 @@ body {
     width: 90%;
     margin: 20px;
     align-content: stretch;
+    justify-content: center;
 }
 illustration { /*describes what the picture is in*/
     background-color: navajowhite;
-    display: block;
-    position: absolute;
     padding: 20px;
-    right: 40px;
-    left: 40px;
+    display: block;
 }
 .self-portrait { /*describes the properties the picture should have*/ 
+    position: absolute;
     border-radius: 5px;
     max-width: 10%;
     height: auto;  
+   /* right: 40px;
+    left: 40px;*/
 }
 .column.project-info {
     background-color: forestgreen;
