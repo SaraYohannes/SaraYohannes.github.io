@@ -20,7 +20,7 @@ body {
 }
 .column.contact-info {
     background-color: greenyellow;
-    
+    /*float: left;*/
 }
 .work-space {
     background-color: indianred;
@@ -34,7 +34,7 @@ body {
 }
 .column.aboutme-info {
     background-color: olive;
-    float: right;
+    /*float: right;*/
 }
 .footer {
     background-color: palevioletred;
