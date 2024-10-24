@@ -17,7 +17,7 @@ body {
     border-radius: 4px;
     /*max-width: 1920px;*/
     object-fit: scale-down;
-    height: auto;
+    height: 50px;
     padding: 0px;
 }
 .column {
