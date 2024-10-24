@@ -8,7 +8,7 @@ body {
 }
 .htop {
     display: flex;
-    background-color: lightgrey;
+    background-color: darkgray;
     height: 200px;
     padding: 70px;
 }
@@ -27,13 +27,13 @@ body {
     justify-content: center;
 }
 .column.contact-info {
-    background-color: greenyellow;
+    background-color: lightgrey;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 17%;
 }
 .work-space {
-    background-color: lightgray;
+    background-color: ghostwhite;
     display: flex;
     flex-direction: column;
     height: auto;
