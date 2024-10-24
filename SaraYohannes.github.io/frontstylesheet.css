@@ -20,6 +20,7 @@ body {
 }
 .column.contact-info {
     background-color: greenyellow;
+    flex: inherit;
     /*float: left;*/
     align-content: center;
 }
