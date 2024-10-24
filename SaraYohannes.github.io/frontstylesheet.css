@@ -26,6 +26,7 @@ body {
     background-color: indianred;
     overflow: auto;
     margin: auto;
+    align-content: stretch;
     padding: 5px;
 
 }
