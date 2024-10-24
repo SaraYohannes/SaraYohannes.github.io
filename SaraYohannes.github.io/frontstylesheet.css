@@ -10,7 +10,7 @@ body {
     display: flex;
     background-color: skyblue;
     height: 200px;
-/*    padding-top: 70px;*/
+    padding-top: 70px;
 }
 .column {
     display: flex;
@@ -24,7 +24,7 @@ body {
 .work-space {
     background-color: indianred;
     height: 660px;
-    padding: 20px;
+    margin: 20px;
     align-content: stretch;
 }
 .column.project-info {
