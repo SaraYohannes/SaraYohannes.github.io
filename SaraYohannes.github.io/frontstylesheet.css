@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     align-content: stretch;
-    height: 800px;
+    height: 700px;
 }
 .column.contact-info {
     background-color: greenyellow;
