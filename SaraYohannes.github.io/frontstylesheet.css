@@ -24,6 +24,7 @@ body {
 }
 .column.contact-info.work-space {
     background-color: indianred;
+    overflow: auto;
     position: absolute;
     left: 20px;
 }
