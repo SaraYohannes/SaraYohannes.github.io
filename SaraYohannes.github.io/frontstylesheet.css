@@ -15,7 +15,7 @@ body {
 .banner { /*describes the properties the picture should have*/
     /*position: absolute;*/
     border-radius: 4px;
-    max-width: 1920px;
+    /*max-width: 1920px;*/
     object-fit: scale-down;
     height: auto;
     padding: 0px;
