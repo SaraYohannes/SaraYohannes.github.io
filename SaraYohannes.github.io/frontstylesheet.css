@@ -38,7 +38,7 @@ illustration { /*describes what the picture is in*/
     border-radius: 5px;
     max-width: 10%;
     height: auto;  
-    right: 100px;
+    right: 150px;
     left: 100px;
 }
 .column.project-info {
