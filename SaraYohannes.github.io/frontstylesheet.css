@@ -37,7 +37,6 @@ body {
     align-content: stretch;
 }
 .self-portrait { /*describes the properties the picture should have*/
-    justify-self: center;
     margin-right: auto;
     margin-left: auto;
     border-radius: 5px;
