@@ -47,7 +47,6 @@ body {
 .project-illustration {
     border-radius: 4px;
     object-fit: cover;
-    margin: 100px, 15px;
     width: 150px;
     height: 150px;
 }
