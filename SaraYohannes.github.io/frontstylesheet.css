@@ -45,7 +45,7 @@ body {
     height: auto;
 }
 .column.project-info {
-    background-color: hotpink;
+    background-color: lightgray;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 33%;
