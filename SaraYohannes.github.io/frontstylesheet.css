@@ -80,6 +80,9 @@ body {
     display: flex;
     height: 100px;
 }
+a {
+    color: darkgray;
+}
 @media (max-width: 900px) {
     .body {
         flex-direction: column;
