@@ -59,7 +59,7 @@ body {
 .column {
     display: flex;
     flex-direction: row;
-    height: 700px;
+    /*height: 700px;*/
     justify-content: center;
 }
 .column.aboutme-info {
