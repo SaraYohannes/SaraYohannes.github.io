@@ -1,12 +1,15 @@
 ﻿* {
     box-sizing: border-box;
 }
+/*entire body*/
 body {
    /* display: flex;*/
     background-color: white;
     margin: 0px;
     border: none;
 }
+/*main sections of the screen*/
+/*top, the banner, the top part of the screen*/
 .htop {
     display: flex;
     background-color: lightgray;
@@ -20,6 +23,13 @@ body {
     max-width: 1740px;
     height: 200px;
     padding: 0px;
+}
+/*the middle section of the screen, where all the information is*/
+.column {
+    display: flex;
+    flex-direction: row;
+    /*height: 700px;*/ /*not necessary to keep the 'boxes' large and fill page*/
+    justify-content: center;
 }
 .column.contact-info {
     background-color: lightgrey;
@@ -37,6 +47,28 @@ body {
     /*justify-content: center;*/ /*centers items in the vertical alignment*/
     align-items: center; /*center items in the horizontal alignment*/
 }
+.column.project-info {
+    background-color: lightgray;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 33%;
+}
+.column.aboutme-info {
+    background-color: lightgrey;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+/*bottom part of the screen*/
+.footer {
+    background-color: lightgray;
+    display: flex;
+    height: 100px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 90%;
+}
+/*illustration elements*/
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
     object-fit: contain;
@@ -50,24 +82,8 @@ body {
     width: 150px;
     height: 150px;
 }
-.column.project-info {
-    background-color: lightgray;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 33%;
-}
-.column {
-    display: flex;
-    flex-direction: row;
-    /*height: 700px;*/ /*not necessary to keep the 'boxes' large and fill page*/
-    justify-content: center;
-}
-.column.aboutme-info {
-    background-color: lightgrey;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 50%;
-}
+/*useful elements- */
+/*adds a textbox where needed*/
 .text-boxes {
     background-color: whitesmoke;
     width: 90%;
@@ -75,14 +91,11 @@ body {
     /*align-content: center;*/
     text-align: center;
 }
-.footer {
-    background-color: lightgray;
-    display: flex;
-    height: 100px;
-}
+/*link types*/
 a {
     color: darkgray;
 }
+/**/
 @media (max-width: 900px) {
     .body {
         flex-direction: column;
