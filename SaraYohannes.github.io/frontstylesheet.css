@@ -44,6 +44,12 @@ body {
     margin-top: 10px;
     height: auto;
 }
+.project-illustration {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
 .column.project-info {
     background-color: lightgray;
     flex-grow: 0;
