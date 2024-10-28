@@ -61,12 +61,11 @@ body {
 }
 /*bottom part of the screen*/
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: lightgray;
     display: flex;
     height: 100px;
-/*    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 90%;*/
 }
 /*illustration elements*/
 .self-portrait { /*describes the properties the picture should have*/
