@@ -104,10 +104,10 @@ a {
     .footer .column {
         flex-direction: row;
     }
-    .contact-info .content-space .text-boxes .column .project-illustration {
+    .column .project-info .content-space .text-boxes .column .project-illustration {
         order: 1;
     }
-    .contact-info .content-space .text-boxes .column .text-boxes {
+    .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
     }
 }
