@@ -120,6 +120,6 @@ a {
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
-        align-content: center;
+        align-items: center;
     }
 }
