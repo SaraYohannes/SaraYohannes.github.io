@@ -105,9 +105,9 @@ a {
         flex-direction: row;
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
-        order: 1;
+        order: 2;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
-        order: 2;
+        order: 1;
     }
 }
