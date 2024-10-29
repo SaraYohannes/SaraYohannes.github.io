@@ -66,11 +66,6 @@ body {
     background-color: lightgray;
     height: 100px;
 }
-/*.footer .column {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}*/
 /*illustration elements*/
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
@@ -98,12 +93,7 @@ body {
 a {
     color: darkgray;
 }
-/**/
-/*@media (max-width: 900px) {
-    .body {
-        flex-direction: column;
-    }
-}*/
+/*Media Queries for phone screens*/
 @media (max-width: 900px) {
     .column {
         flex-direction: column;
