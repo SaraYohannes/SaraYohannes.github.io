@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 104,
+          "DockedWidth": 113,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -44,17 +44,11 @@
               "RelativeDocumentMoniker": "frontstylesheet.css",
               "ToolTip": "C:\\Users\\saray\\websites\\SaraYohannes.github.io\\SaraYohannes.github.io\\frontstylesheet.css",
               "RelativeToolTip": "frontstylesheet.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAADAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwEAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-22T16:12:49.746Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 122,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -63,7 +57,7 @@
               "RelativeDocumentMoniker": "frontpage.html",
               "ToolTip": "C:\\Users\\saray\\websites\\SaraYohannes.github.io\\SaraYohannes.github.io\\frontpage.html",
               "RelativeToolTip": "frontpage.html",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGQAAAAHAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwGAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-22T16:12:17.506Z",
               "EditorCaption": ""
