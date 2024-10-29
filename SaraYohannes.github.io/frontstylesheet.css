@@ -111,11 +111,12 @@ a {
         flex-direction: row;
     }
     .column .project-info .content-space .text-boxes .column {
-        justify-content: center;
-        align-content: center;
+
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: -1;
+        max-height: 100%;
+        max-width: auto;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
