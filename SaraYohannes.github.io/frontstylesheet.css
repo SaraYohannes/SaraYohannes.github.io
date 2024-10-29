@@ -118,6 +118,7 @@ a {
         max-height: 100%;
         max-width: auto;
         object-fit: contain;
+        align-self: center;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
