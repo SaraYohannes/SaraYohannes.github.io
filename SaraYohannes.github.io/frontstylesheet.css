@@ -117,6 +117,7 @@ a {
         order: -1;
         max-height: 100%;
         max-width: auto;
+        object-fit: contain;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
