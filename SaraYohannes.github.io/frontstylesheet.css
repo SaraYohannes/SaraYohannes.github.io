@@ -106,4 +106,7 @@ a {
     .footer {
         height: auto;
     }
+    .footer > column {
+        flex-direction: row;
+    }
 }
