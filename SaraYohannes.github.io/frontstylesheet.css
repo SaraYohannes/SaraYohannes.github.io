@@ -111,7 +111,7 @@ a {
         flex-direction: row;
     }
     .column .project-info .content-space .text-boxes .column {
-
+        align-items: center;
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: -1;
@@ -120,6 +120,5 @@ a {
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
-        align-items: center;
     }
 }
