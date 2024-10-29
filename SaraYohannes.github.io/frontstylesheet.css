@@ -1,5 +1,4 @@
-﻿
-* {
+﻿* {
     box-sizing: border-box;
 }
 /*entire body*/
@@ -29,6 +28,7 @@ body {
 .column {
     display: flex;
     flex-direction: row;
+    /*height: 700px;*/ /*not necessary to keep the 'boxes' large and fill page*/
     justify-content: center;
 }
 .column.contact-info {
@@ -94,8 +94,7 @@ body {
 a {
     color: darkgray;
 }
-
-/*media querries for phones*/
+/**/
 @media (max-width: 900px) {
     .body {
         flex-direction: column;
