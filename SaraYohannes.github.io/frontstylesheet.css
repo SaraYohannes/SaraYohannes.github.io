@@ -8,7 +8,9 @@ body {
     margin: 0px;
     border: none;
 }
+
 /*main sections of the screen*/
+
 /*top, the banner, the top part of the screen*/
 .htop {
     display: flex;
@@ -24,11 +26,11 @@ body {
     height: 200px;
     padding: 0px;
 }
+
 /*the middle section of the screen, where all the information is*/
 .column {
     display: flex;
     flex-direction: row;
-    /*height: 700px;*/ /*not necessary to keep the 'boxes' large and fill page*/
     justify-content: center;
 }
 .column.contact-info {
@@ -59,6 +61,7 @@ body {
     flex-shrink: 1;
     flex-basis: 50%;
 }
+
 /*bottom part of the screen*/
 .footer {
     display: flex;
@@ -66,6 +69,7 @@ body {
     background-color: lightgray;
     height: 100px;
 }
+
 /*illustration elements*/
 .self-portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
@@ -80,7 +84,9 @@ body {
     width: 150px;
     height: 150px;
 }
+
 /*useful elements- */
+
 /*adds a textbox where needed*/
 .text-boxes {
     background-color: whitesmoke;
@@ -107,6 +113,7 @@ a {
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: 1;
         justify-content: center;
+        align-content: center;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
