@@ -115,8 +115,6 @@ a {
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: -1;
-        max-height: 100%;
-        max-width: auto;
         object-fit: contain;
         align-self: center;
     }
