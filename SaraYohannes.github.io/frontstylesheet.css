@@ -112,8 +112,7 @@ a {
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: 1;
-        justify-content: center;
-        align-content: center;
+        justify-self: center;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
