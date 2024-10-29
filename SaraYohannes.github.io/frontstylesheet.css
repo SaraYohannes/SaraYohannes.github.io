@@ -106,7 +106,7 @@ a {
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: 1;
-        align-content: center;
+        justify-content: center;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
