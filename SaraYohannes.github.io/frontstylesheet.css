@@ -112,6 +112,7 @@ a {
     }
     .column .project-info .content-space .text-boxes .column {
         justify-content: center;
+        align-content: center;
     }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: -1;
