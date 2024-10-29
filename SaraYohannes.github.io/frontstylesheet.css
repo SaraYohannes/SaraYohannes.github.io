@@ -110,9 +110,11 @@ a {
     .footer .column {
         flex-direction: row;
     }
+    .column .project-info .content-space .text-boxes .column {
+        justify-content: center;
+    }
     .column .project-info .content-space .text-boxes .column .project-illustration {
         order: -1;
-        justify-content:end;
     }
     .column .contact-info .content-space .text-boxes .column .text-boxes {
         order: 2;
