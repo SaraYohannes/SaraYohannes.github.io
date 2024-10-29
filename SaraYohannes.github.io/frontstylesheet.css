@@ -64,7 +64,6 @@ body {
     display: flex;
     justify-content: center;
     background-color: lightgray;
-    display: flex;
     height: 100px;
 }
 /*illustration elements*/
@@ -103,5 +102,8 @@ a {
 @media (max-width: 900px) {
     .column {
         flex-direction: column;
+    }
+    .footer {
+        height: auto;
     }
 }
