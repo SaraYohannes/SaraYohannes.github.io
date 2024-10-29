@@ -95,11 +95,11 @@ a {
     color: darkgray;
 }
 /**/
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     .body {
         flex-direction: column;
     }
-}
+}*/
 @media (max-width: 900px) {
     .column {
         flex-direction: column;
