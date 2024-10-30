@@ -99,6 +99,7 @@ body {
 a {
     color: darkgray;
 }
+
 /*Media Queries for phone screens*/
 @media (max-width: 900px) {
     .column {
