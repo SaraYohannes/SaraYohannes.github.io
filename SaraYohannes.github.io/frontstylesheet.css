@@ -107,10 +107,20 @@ a {
     bottom: 150px;
     background-color: whitesmoke;
     padding: 15px;
-    border: 2px dotted red;
+/*    border: 2px dotted red;*/
     z-index: 1;
     width: 40%;
     height: 50%;
+}
+
+/*buttons*/
+
+/*exit button*/
+.close-button {
+    float: right;
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
 }
 
 /*Media Queries for phone screens*/
