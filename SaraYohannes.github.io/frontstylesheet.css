@@ -118,8 +118,8 @@ a {
 /*exit button*/
 .close-button {
     float: right;
-    width: 10px;
-    height: 10px;
+    width: 25px;
+    height: 25px;
     background-color: orangered;
 }
 
