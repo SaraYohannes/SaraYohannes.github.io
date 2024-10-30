@@ -122,7 +122,7 @@ a {
 .close-button {
     float: right;
     font-size: 28px;
-/*    margin-left: 150px;*/
+    padding: 5px;
     background-color: orangered;
 }
 
