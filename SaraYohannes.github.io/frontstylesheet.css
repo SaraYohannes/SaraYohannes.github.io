@@ -103,6 +103,7 @@ a {
 /*e-mail modal*/
 .email-modal {
     position: fixed;
+    right: 100px;
     background-color: whitesmoke;
     padding: 15px;
     border: 2px dotted red;
