@@ -100,6 +100,14 @@ a {
     color: darkgray;
 }
 
+/*e-mail modal*/
+.email-modal {
+    display: block;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+}
+
 /*Media Queries for phone screens*/
 @media (max-width: 900px) {
     .column {
