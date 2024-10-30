@@ -114,14 +114,14 @@ a {
 }
 /*order email modal content*/
 .modal-content {
-    float: right;
+    float: left;
 }
 
 /*buttons*/
 
 /*exit button*/
 .close-button {
-    /*float: right;*/
+    float: right;
     width: 25px;
     height: 25px;
     background-color: orangered;
