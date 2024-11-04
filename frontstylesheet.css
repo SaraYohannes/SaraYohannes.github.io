@@ -126,6 +126,10 @@ a {
     background-color: orangered;   
 }
 .open-button {
+    display: inline-block;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
     color: red;
 }
 
