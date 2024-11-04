@@ -123,8 +123,10 @@ a {
     float: right;
     font-size: 28px;
     padding: 0px 5px;
-    background-color: orangered;
-    
+    background-color: orangered;   
+}
+.open-button {
+    color: red;
 }
 
 /*Media Queries for phone screens*/
