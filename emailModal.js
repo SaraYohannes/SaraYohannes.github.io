@@ -1,16 +1,20 @@
 // describes functionality of the email modal
 
-// close modal button
 const modal = document.getElementsByClassName("email-modal")[0];
 const butt_close = document.getElementsByClassName("close-button")[0];
 const butt_open = document.getElementsByClassName("open-button")[0]
 
+// open modal button
 butt_open.onclick = function () {
     modal.style.display = "block";
 }
+
+// close modal button
 butt_close.onclick = function () {
     modal.style.display = "none";
 }
 
-// open modal button
+// copy address button???
+
 // send mail button?
+

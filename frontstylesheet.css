@@ -121,9 +121,10 @@ a {
 /*exit button*/
 .close-button {
     float: right;
-    font-size: 28px;
-    padding: 0px 5px;
     background-color: orangered;   
+    padding: 0px 5px;
+    border: none;
+    font-size: 28px;
 }
 .open-button {
     display: inline-block;
