@@ -4,7 +4,7 @@
 const modal = document.getElementsByClassName("email-modal");
 const butt_close = document.getElementsByClassName("close-button")[0];
 butt_close.onclick = function () {
-    modal.style.display = "none";
+    modal.setAttribute("display", "none");
 }
 
 // open modal button
