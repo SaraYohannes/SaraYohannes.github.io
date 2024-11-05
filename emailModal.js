@@ -21,17 +21,14 @@ butt_copyText.onclick = function () {
     info.value = document.querySelector("p.copyText-button").innerHTML;
     document.body.appendChild(info);
 
-    info.select();
-    document.execCommand("copy");
+    navigator.clipboard.writeText(info).then(() => {
+        const confi = document.getElementById(confi);
+        confi.style.display = "block";
 
-    document.body.removeChild("info");
-
-    const confi = document.getElementById(confi);
-    confi.style.display = "block";
-
-    setTimeout(() => {
-        confi.style.display = "none";
-    }, 2000);
-
-    
+        setTimeout(() => {
+            confi.style.display = "none";
+        }, 2000);
+    }).catch(err => {
+        console.error("Didn't copy text: ", err);
+    });
 }
