@@ -97,8 +97,12 @@ body {
 }
 /*link types*/
 a:link {
+    display:inline-block;
     background-color: whitesmoke;
     color: darkgray;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 a:hover {
     background-color: lightgray;
