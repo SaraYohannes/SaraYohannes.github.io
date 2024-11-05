@@ -134,7 +134,7 @@ a {
     color: darkslategray;
 }
 .copyText-button {
-    display: block;
+    display: inline-block;
     background-color: whitesmoke;
     border: none;
     text-align: center;
