@@ -17,18 +17,5 @@ butt_close.onclick = function () {
 
 // copy information on button
 butt_copyText.onclick = function () {
-    const info = document.createElement("input");
-    info.value = document.querySelector("p.copyText-button").innerHTML;
-    document.body.appendChild(info);
 
-    navigator.clipboard.writeText(info).then(() => {
-        const confi = document.getElementById(confi);
-        confi.style.display = "block";
-
-        setTimeout(() => {
-            confi.style.display = "none";
-        }, 2000);
-    }).catch(err => {
-        console.error("Didn't copy text: ", err);
-    });
 }
