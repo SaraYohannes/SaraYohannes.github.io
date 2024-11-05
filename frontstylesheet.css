@@ -133,6 +133,13 @@ a {
     text-align: center;
     color: darkslategray;
 }
+.copyText-button {
+    display: block;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+    color: darkslategray;
+}
 
 /*Media Queries for phone screens*/
 @media (max-width: 900px) {
