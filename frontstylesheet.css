@@ -96,9 +96,14 @@ body {
     text-align: center;
 }
 /*link types*/
-a {
+a:link {
+    background-color: whitesmoke;
     color: darkgray;
-    
+}
+a:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
 }
 
 /*e-mail modal*/
