@@ -103,6 +103,7 @@ a:link {
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    bottom: 5px;
 }
 a:hover {
     background-color: lightgray;
