@@ -96,7 +96,7 @@ body {
     text-align: center;
 }
 /*link types*/
-a:link {
+a:link, a:visited {
     display:inline-block;
     background-color: whitesmoke;
     color: darkgray;
