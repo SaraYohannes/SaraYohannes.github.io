@@ -2,7 +2,8 @@
 
 const modal = document.getElementsByClassName("email-modal")[0];
 const butt_close = document.getElementsByClassName("close-button")[0];
-const butt_open = document.getElementsByClassName("open-button")[0]
+const butt_open = document.getElementsByClassName("open-button")[0];
+const butt_copyText = document.getElementsByClassName("copyText-button")[0];
 
 // open modal button
 butt_open.onclick = function () {
@@ -14,7 +15,23 @@ butt_close.onclick = function () {
     modal.style.display = "none";
 }
 
-// copy address button???
+// copy information on button
+butt_copyText.onclick = function () {
+    const info = document.createElement("input");
+    info.value = document.querySelector("p.copyText-button").innerHTML;
+    document.body.appendChild(info);
 
-// send mail button?
+    info.select();
+    document.execCommand("copy");
 
+    document.body.removeChild("info");
+
+    const confi = document.getElementById(confi);
+    confi.style.display = "block";
+
+    setTimeout(() => {
+        confi.style.display = "none";
+    }, 2000);
+
+    
+}
