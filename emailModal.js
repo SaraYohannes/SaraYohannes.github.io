@@ -1,9 +1,9 @@
 // describes functionality of the email modal
 
-const modal = document.getElementsByClassName("email-modal")[0];
-const butt_close = document.getElementsByClassName("close-button")[0];
-const butt_open = document.getElementsByClassName("open-button")[0];
-const butt_copyText = document.getElementsByClassName("copyText-button")[0];
+const modal = document.getElementsByClassName("email_modal")[0];
+const butt_close = document.getElementsByClassName("close_button")[0];
+const butt_open = document.getElementsByClassName("open_button")[0];
+const butt_copyText = document.getElementsByClassName("copyText_button")[0];
 
 // open modal button
 butt_open.onclick = function () {

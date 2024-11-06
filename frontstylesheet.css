@@ -33,13 +33,13 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-.column.contact-info {
+.column.contact_info {
     background-color: lightgrey;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 17%;
 }
-.content-space {
+.content_space {
     background-color: ghostwhite;
     display: flex;
     flex-direction: column;
@@ -49,13 +49,13 @@ body {
     /*justify-content: center;*/ /*centers items in the vertical alignment*/
     align-items: center; /*center items in the horizontal alignment*/
 }
-.column.project-info {
+.column.project_info {
     background-color: lightgray;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 33%;
 }
-.column.aboutme-info {
+.column.aboutme_info {
     background-color: lightgrey;
     flex-grow: 0;
     flex-shrink: 1;
@@ -71,14 +71,14 @@ body {
 }
 
 /*illustration elements*/
-.self-portrait { /*describes the properties the picture should have*/
+.self_portrait { /*describes the properties the picture should have*/
     border-radius: 5px;
     object-fit: contain;
     max-width: 90%;
     margin-top: 10px;
     height: auto;
 }
-.project-illustration {
+.project_illustration {
     border-radius: 4px;
     object-fit: contain;
     width: 150px;
@@ -88,7 +88,7 @@ body {
 /*useful elements- */
 
 /*adds a textbox where needed*/
-.text-boxes {
+.text_boxes {
     background-color: whitesmoke;
     width: 90%;
     margin: 20px 5px;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 /*e-mail modal*/
-.email-modal {
+.email_modal {
     display: none;
     position: fixed;
     left: 100px;
@@ -124,27 +124,27 @@ a:hover {
     height: 50%;
 }
 /*email modal content*/
-.modal-content {
+.modal_content {
 }
 
 /*buttons*/
 
 /*exit button*/
-.close-button {
+.close_button {
     float: right;
-    background-color: orangered;   
+    background-color: orangered;
     padding: 0px 5px;
     border: none;
     font-size: 28px;
 }
-.open-button {
+.open_button {
     display: inline-block;
     background-color: whitesmoke;
     border: none;
     text-align: center;
     color: darkslategray;
 }
-.copyText-button {
+.copyText_button {
     display: inline-block;
     background-color: whitesmoke;
     border: none;
@@ -163,15 +163,15 @@ a:hover {
     .footer .column {
         flex-direction: row;
     }
-    .column .project-info .content-space .text-boxes .column {
+    .column .project_info .content_space .text_boxes .column {
         align-items: center;
     }
-    .column .project-info .content-space .text-boxes .column .project-illustration {
+    .column .project_info .content_space .text_boxes .column .project_illustration {
         order: -1;
         object-fit: contain;
         align-self: center;
     }
-    .column .contact-info .content-space .text-boxes .column .text-boxes {
+    .column .contact_info .content_space .text_boxes .column .text_boxes {
         order: 2;
     }
 }
