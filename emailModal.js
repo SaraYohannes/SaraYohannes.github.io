@@ -22,8 +22,24 @@ butt_close.onclick = function () {
 
 function copyTextFunction(buttonId) {
     console.log(buttonId);
-    var copyText = document.getElementById(buttonId).innerText;
+ 
+    switch (buttonId) {
+        case c1:
+            copyText = 41294755;
+            break;
+        case c2:
+            copyText = 'sara.seacucumber@gmail.com';
+            break;
+        case c3:
+            copyText = 'Heidmanns gate 32, HO116' + n/ + '2317 HAMAR';
+            break;
+        case c4:
+            copyText = 'Sara Yohannes' + n / + 'tlf: ' + 41294755 + n / + 'e-mail: sara.seacucumber@gmail.com' + n / + 'Heidmanns gate 32, HO116' + n / + '2317 HAMAR';
+            break;
+        default:
+            copyText = "No text was found";
 
+    }
     navigator.clipboard.writeText(copyText);
 
     alert("Copied " + copyText);
