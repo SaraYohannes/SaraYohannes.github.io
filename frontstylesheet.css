@@ -150,7 +150,7 @@ a:hover {
     cursor: pointer;
 }
 .copyText_button {
-    display: inline-block;
+    display: block;
     background-color: whitesmoke;
     border: none;
     text-align: center;
