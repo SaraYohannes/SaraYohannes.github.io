@@ -22,4 +22,9 @@ butt_close.onclick = function () {
 
 function copyTextFunction(buttonId) {
     console.log(buttonId);
+    var copyText = document.getElementById(buttonId).innerText;
+
+    navigator.clipboard.writeText(copyText);
+
+    alert("Copied " + copyText);
 }
