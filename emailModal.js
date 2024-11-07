@@ -3,7 +3,6 @@
 const modal = document.getElementsByClassName("email_modal")[0];
 const butt_close = document.getElementsByClassName("close_button")[0];
 const butt_open = document.getElementsByClassName("open_button")[0];
-const butt_copyText = document.getElementsByClassName("copyText_button")[0];
 
 // open modal button
 butt_open.onclick = function () {
@@ -15,14 +14,9 @@ butt_close.onclick = function () {
     modal.style.display = "none";
 }
 
-// copy information on button
-//butt_copyText.onclick = function () {
-
-//}
-
+/// copy text depending on id of button (get my contact information)
 function copyTextFunction(buttonId) {
-    console.log(buttonId);
- 
+
     switch (buttonId) {
         case 'c1':
             copyText = 41294755;
@@ -41,6 +35,4 @@ function copyTextFunction(buttonId) {
 
     }
     navigator.clipboard.writeText(copyText);
-
-    alert("Copied " + copyText);
 }

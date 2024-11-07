@@ -1,7 +1,10 @@
 ﻿* {
     box-sizing: border-box;
 }
-/*entire body*/
+
+/*
+    entire body
+*/
 body {
    /* display: flex;*/
     background-color: white;
@@ -9,7 +12,9 @@ body {
     border: none;
 }
 
-/*main sections of the screen*/
+/*
+    main sections of the screen
+*/
 
 /*top, the banner, the top part of the screen*/
 .htop {
@@ -18,7 +23,8 @@ body {
     height: 200px;
     padding: 70px;
 }
-.banner { /*describes the properties the picture should have*/
+/*describes the properties the picture should have*/
+.banner { 
     position: center;
     border-radius: 4px;
     justify-self: center;
@@ -26,7 +32,6 @@ body {
     height: 200px;
     padding: 0px;
 }
-
 /*the middle section of the screen, where all the information is*/
 .column {
     display: flex;
@@ -46,8 +51,7 @@ body {
     height: auto;
     width: 100%;
     margin: 10px;
-    /*justify-content: center;*/ /*centers items in the vertical alignment*/
-    align-items: center; /*center items in the horizontal alignment*/
+    align-items: center;
 }
 .column.project_info {
     background-color: lightgray;
@@ -62,7 +66,9 @@ body {
     flex-basis: 50%;
 }
 
-/*bottom part of the screen*/
+/*
+    bottom part of the screen
+*/
 .footer {
     display: flex;
     justify-content: center;
@@ -70,8 +76,10 @@ body {
     height: 100px;
 }
 
-/*illustration elements*/
-.self_portrait { /*describes the properties the picture should have*/
+/*
+    illustration elements
+*/
+.self_portrait { 
     border-radius: 5px;
     object-fit: contain;
     max-width: 90%;
@@ -85,7 +93,9 @@ body {
     height: 150px;
 }
 
-/*useful elements- */
+/*
+    useful elements
+*/
 
 /*adds a textbox where needed*/
 .text_boxes {
@@ -123,13 +133,11 @@ a:hover {
     width: 30%;
     height: 30%;
 }
-/*email modal content*/
-.modal_content {
-}
 
-/*buttons*/
-
-/*exit button*/
+/*
+    buttons
+*/
+/*exit modal button*/
 .close_button {
     right: 15px;
     position: absolute;
@@ -138,6 +146,7 @@ a:hover {
     border: none;
     font-size: 28px;
 }
+/*open modal button*/
 .open_button {
     display: inline-block;
     background-color: whitesmoke;
@@ -151,6 +160,7 @@ a:hover {
     color: black;
     cursor: pointer;
 }
+/*copy text button*/
 .copyText_button {
     display: block;
     background-color: whitesmoke;
@@ -165,7 +175,9 @@ a:hover {
     cursor: pointer;
 }
 
-/*Media Queries for phone screens*/
+/*
+    Media Queries for phone screens
+*/
 @media (max-width: 900px) {
     .column {
         flex-direction: column;
