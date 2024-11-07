@@ -116,11 +116,11 @@ a:hover {
     position: fixed;
     left: 100px;
     bottom: 150px;
-    background-color: lightgray;
+    background-color: whitesmoke;
     padding: 15px;
     z-index: 1;
     width: 40%;
-    height: 50%;
+    height: 30%;
 }
 /*email modal content*/
 .modal_content {
@@ -152,7 +152,7 @@ a:hover {
 }
 .copyText_button {
     display: block;
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     border: none;
     text-align: center;
     width: 30%;
