@@ -24,16 +24,16 @@ function copyTextFunction(buttonId) {
     console.log(buttonId);
  
     switch (buttonId) {
-        case c1:
+        case 'c1':
             copyText = 41294755;
             break;
-        case c2:
+        case 'c2':
             copyText = 'sara.seacucumber@gmail.com';
             break;
-        case c3:
+        case 'c3':
             copyText = 'Heidmanns gate 32, HO116' + n/ + '2317 HAMAR';
             break;
-        case c4:
+        case 'c4':
             copyText = 'Sara Yohannes' + n / + 'tlf: ' + 41294755 + n / + 'e-mail: sara.seacucumber@gmail.com' + n / + 'Heidmanns gate 32, HO116' + n / + '2317 HAMAR';
             break;
         default:
