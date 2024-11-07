@@ -155,7 +155,13 @@ a:hover {
     background-color: whitesmoke;
     border: none;
     text-align: center;
+    width: 30%;
     color: darkslategray;
+}
+.copyText_button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
 }
 
 /*Media Queries for phone screens*/
