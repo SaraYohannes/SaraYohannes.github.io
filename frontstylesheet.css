@@ -130,7 +130,7 @@ a:hover {
 
 /*exit button*/
 .close_button {
-    right: 5px;
+    right: 15px;
     position: absolute;
     background-color: orangered;
     padding: 0px 5px;
