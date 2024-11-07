@@ -142,6 +142,12 @@ a:hover {
     border: none;
     text-align: center;
     color: darkslategray;
+    cursor: pointer;
+}
+.open_button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
 }
 .copyText_button {
     display: inline-block;
