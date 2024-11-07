@@ -31,10 +31,10 @@ function copyTextFunction(buttonId) {
             copyText = 'sara.seacucumber@gmail.com';
             break;
         case 'c3':
-            copyText = 'Heidmanns gate 32, HO116' + n/ + '2317 HAMAR';
+            copyText = 'Heidmanns gate 32, HO116 \n2317 HAMAR';
             break;
         case 'c4':
-            copyText = 'Sara Yohannes' + n / + 'tlf: ' + 41294755 + n / + 'e-mail: sara.seacucumber@gmail.com' + n / + 'Heidmanns gate 32, HO116' + n / + '2317 HAMAR';
+            copyText = 'Sara Yohannes \ntlf: 41294755 \ne-mail: sara.seacucumber@gmail.com \nHeidmanns gate 32, HO116 \n2317 HAMAR';
             break;
         default:
             copyText = "No text was found";
