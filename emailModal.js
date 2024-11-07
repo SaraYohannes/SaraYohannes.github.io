@@ -16,6 +16,10 @@ butt_close.onclick = function () {
 }
 
 // copy information on button
-butt_copyText.onclick = function () {
+//butt_copyText.onclick = function () {
 
+//}
+
+function copyTextFunction(buttonId) {
+    console.log(buttonId);
 }
