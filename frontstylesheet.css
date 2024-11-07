@@ -116,6 +116,7 @@ a:hover {
     position: fixed;
     left: 100px;
     bottom: 150px;
+    border: 2px solid lightgrey;
     background-color: whitesmoke;
     padding: 15px;
     z-index: 1;
