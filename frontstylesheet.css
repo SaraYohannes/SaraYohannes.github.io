@@ -199,4 +199,10 @@ a:hover {
     .column .contact_info .content_space .text_boxes .column .text_boxes {
         order: 2;
     }
+    .email_modal {
+        left: 5px;
+        bottom: 10px;
+        width: 95%;
+        height: auto;
+    }
 }
