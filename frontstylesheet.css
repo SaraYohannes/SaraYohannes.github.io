@@ -200,9 +200,9 @@ a:hover {
         order: 2;
     }
     .email_modal {
-        left: 5px;
-        bottom: 10px;
+        left: 10px;
+        bottom: 50px;
         width: 95%;
-        height: auto;
+        height: 40%;
     }
 }
