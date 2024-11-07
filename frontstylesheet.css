@@ -131,7 +131,7 @@ a:hover {
 /*exit button*/
 .close_button {
     float: right;
-    position: static;
+    position: absolute;
     background-color: orangered;
     padding: 0px 5px;
     border: none;
