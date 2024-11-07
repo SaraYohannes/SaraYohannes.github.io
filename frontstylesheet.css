@@ -116,7 +116,7 @@ a:hover {
     position: fixed;
     left: 100px;
     bottom: 150px;
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     padding: 15px;
     z-index: 1;
     width: 40%;
@@ -152,7 +152,7 @@ a:hover {
 }
 .copyText_button {
     display: block;
-    background-color: ghostwhite;
+    background-color: whitesmoke;
     border: none;
     text-align: center;
     width: 30%;
