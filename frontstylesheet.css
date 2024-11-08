@@ -206,6 +206,6 @@ a:hover {
         left: 15px;
         bottom: 50px;
         width: 95%;
-        height: 40%;
+        height: auto;
     }
 }
