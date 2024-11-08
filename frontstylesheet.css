@@ -188,6 +188,7 @@ a:hover {
 /*style project links/buttons*/
 #projectf_button {
     display: flex;
+    flex-direction: column;
     border: none;
     width: 95%;
     height: auto;
