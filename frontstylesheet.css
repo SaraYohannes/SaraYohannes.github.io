@@ -179,6 +179,15 @@ a:hover {
 }
 
 /*
+    Text styling
+*/
+
+#specialStyleHead4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*
     Media Queries for phone screens
 */
 @media (max-width: 900px) {
