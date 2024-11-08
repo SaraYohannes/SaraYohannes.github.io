@@ -16,7 +16,7 @@ butt_close.onclick = function () {
 
 /// copy text depending on id of button (get my contact information)
 function copyTextFunction(buttonId) {
-
+    let copyText = " ";
     switch (buttonId) {
         case 'c1':
             copyText = 41294755;
@@ -32,7 +32,6 @@ function copyTextFunction(buttonId) {
             break;
         default:
             copyText = "No text was found";
-
     }
     navigator.clipboard.writeText(copyText);
 }
