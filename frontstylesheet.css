@@ -178,9 +178,14 @@ a:hover {
     color: black;
     cursor: pointer;
 }
+/*style portfolio buttons*/
 #portf_button {
     float: left;
     text-align: center;
+}
+/*style project links/buttons*/
+#projectf_button {
+
 }
 
 /*
