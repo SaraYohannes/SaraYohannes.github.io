@@ -187,6 +187,7 @@ a:hover {
 }
 /*style project links/buttons*/
 #projectf_button {
+    display: block;
     float: none;
     border: none;
     width: 95%;
