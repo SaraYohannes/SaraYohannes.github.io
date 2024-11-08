@@ -100,8 +100,10 @@ body {
 /*adds a textbox where needed*/
 .text_boxes {
     background-color: whitesmoke;
-    width: 100%;
     margin: 10px 5px;
+    border: none;
+    padding: 2px;
+    width: 90%;
     text-align: center;
 }
 /*link types*/
