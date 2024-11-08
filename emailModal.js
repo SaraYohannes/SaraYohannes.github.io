@@ -16,7 +16,8 @@ butt_close.onclick = function () {
 
 /// copy text depending on id of button (get my contact information)
 function copyTextFunction(buttonId) {
-
+    console.log(buttonId);
+    const copyText;
     switch (buttonId) {
         case 'c1':
             copyText = 41294755;
