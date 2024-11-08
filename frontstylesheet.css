@@ -163,10 +163,13 @@ a:hover {
 /*copy text button*/
 .copyText_button {
     display: block;
+    float: left; /*?*/
     background-color: whitesmoke;
+    margin: 10px;
     border: none;
+    padding: 5px 10px;
     text-align: center;
-    width: 30%;
+    width: 50%;
     color: darkslategray;
 }
 .copyText_button:hover {
