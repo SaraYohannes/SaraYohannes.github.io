@@ -189,6 +189,7 @@ a:hover {
 #projectf_button {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: none;
     width: 95%;
     height: auto;
