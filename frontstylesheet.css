@@ -222,4 +222,7 @@ a:hover {
         width: 95%;
         height: auto;
     }
+    #portf_button {
+        float: none;
+    }
 }
