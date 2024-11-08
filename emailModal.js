@@ -1,5 +1,5 @@
 // describes functionality of the email modal
-
+/*ref*/
 const modal = document.getElementsByClassName("email_modal")[0];
 const butt_close = document.getElementsByClassName("close_button")[0];
 const butt_open = document.getElementsByClassName("open_button")[0];
