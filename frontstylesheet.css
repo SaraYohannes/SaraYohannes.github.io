@@ -200,8 +200,9 @@ a:hover {
     cursor: pointer;
 }
 #lang_buttons{ /*div with language buttons*/
-    display: flex;
-    justify-content: right;
+    display: block;
+    float: right;
+    align-items: center;
 }
 /*
     Text styling
