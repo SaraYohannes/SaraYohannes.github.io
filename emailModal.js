@@ -7,7 +7,7 @@ const lang_no = document.getElementById("lang-no");
 const lang_en = document.getElementById("lang-en");
 
 
-lang_en.onclick = function () {
+function lang_en() {
     /* meta */
     document.getElementsById("page-title").innerHTML = "Sara Yohanne's resume";
     /* e-mail modal */
@@ -43,7 +43,7 @@ lang_en.onclick = function () {
     /*document.getElementById("info-col-openModal").innerHTML = "Copy my phone contact info";*/
 
 }
-lang_no.onclick = function () {
+function lang_no() {
     /* meta */
     document.getElementsById("page-title").innerHTML = "Sara Yohanne's CV";
     /* e-mail modal */
