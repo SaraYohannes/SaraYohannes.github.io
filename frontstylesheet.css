@@ -201,7 +201,7 @@ a:hover {
 }
 #lang_buttons{ /*div with language buttons*/
     display: flex;
-    right: 100px;
+    justify-content: right;
 }
 /*
     Text styling
