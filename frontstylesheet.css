@@ -203,6 +203,7 @@ a:hover {
     display: block;
     float: right;
     align-items: center;
+    justify-content: center;
 }
 /*
     Text styling
