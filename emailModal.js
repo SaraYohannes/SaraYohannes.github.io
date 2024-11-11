@@ -10,7 +10,7 @@ const butt_open = document.getElementsByClassName("open_button")[0];
 function lang_en() {
     console.log("english function");
     /* meta */
-    document.getElementsById("page-title").innerHTML = "Sara Yohanne's resume";
+    document.getElementById("page-title").innerHTML = "Sara Yohanne's resume";
     /* e-mail modal */
     document.getElementById("emodal-info").innerHTML = "My contact information. Please click to copy text.";
     document.getElementById("c1").innerHTML = "Phone number";
@@ -47,7 +47,7 @@ function lang_en() {
 function lang_no() {
     console.log("norsk funksjon");
     /* meta */
-    document.getElementsById("page-title").innerHTML = "Sara Yohanne's CV";
+    document.getElementById("page-title").innerHTML = "Sara Yohanne's CV";
     /* e-mail modal */
     document.getElementById("emodal-info").innerHTML = "Kontaktinformasjon. Klikk for å kopiere.";
     document.getElementById("c1").innerHTML = "Mobil nummer";
