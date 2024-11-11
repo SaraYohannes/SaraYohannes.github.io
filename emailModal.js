@@ -12,30 +12,30 @@ function lang_en() {
     /* meta */
     document.getElementById("page-title").innerHTML = "Sara Yohanne's resume";
     /* e-mail modal */
-    document.getElementById("emodal-info").innerHTML = "My contact information. Please click to copy text.";
-    document.getElementById("c1").innerHTML = "Phone number";
-    document.getElementById("c2").innerHTML = "E-mail";
-    document.getElementById("c3").innerHTML = "Home address";
-    document.getElementById("c4").innerHTML = "All contact information";
+    document.getElementById("emodal-info").innerHTML = "my contact information. Please click to copy text.";
+    document.getElementById("c1").innerHTML = "phone number";
+    document.getElementById("c2").innerHTML = "e-mail";
+    document.getElementById("c3").innerHTML = "home address";
+    document.getElementById("c4").innerHTML = "all contact information";
     /* contact information column */
-    document.getElementById("info-col-nr").innerHTML = "My phone number";
-    document.getElementById("info-col-sendMe").innerHTML = "Send me a mail";
-    document.getElementById("info-col-openModal").innerHTML = "Copy my contact info";
+    document.getElementById("info-col-nr").innerHTML = "my phone number";
+    document.getElementById("info-col-sendMe").innerHTML = "send me a mail";
+    document.getElementById("info-col-openModal").innerHTML = "copy my contact info";
     /* about me information column */
     document.getElementById("info-col-aboutMe").innerHTML = "about me";
     document.getElementById("info-col-am-text").innerHTML = "information";
     document.getElementById("info-col-relEduc").innerHTML = "relevant education";
     document.getElementById("info-col-re-text").innerHTML = "information";
       /* button links */
-    document.getElementById("portf_b_git").innerHTML = "My github account";
-    document.getElementById("portf_b_sketch").innerHTML = "My Sketchfab account";
-    document.getElementById("portf_b_devi").innerHTML = "My Deviantart account";
+    document.getElementById("portf_b_git").innerHTML = "my github account";
+    document.getElementById("portf_b_sketch").innerHTML = "my Sketchfab account";
+    document.getElementById("portf_b_devi").innerHTML = "my Deviantart account";
     /* project information column */
-    document.getElementById("info-col-projectInfo").innerHTML = "Project information";
+    document.getElementById("info-col-projectInfo").innerHTML = "project information";
       /* Github pages project */
-    document.getElementById("Project-githubPages").innerHTML = "Homepage";
+    document.getElementById("Project-githubPages").innerHTML = "homepage";
     document.getElementById("Project-githubPages-description").innerHTML =
-        "Used this project to learn about HTML, CSS, and JavaScript. The result was a homepage which also serve as my resume";
+        "used this project to learn about HTML, CSS, and JavaScript. The result was a homepage which also serve as my resume";
       /* Project two */
     /*document.getElementById("info-col-projectInfo").innerHTML = "Copy my phone contact info";*/
       /* Project three */
@@ -49,30 +49,30 @@ function lang_no() {
     /* meta */
     document.getElementById("page-title").innerHTML = "Sara Yohanne's CV";
     /* e-mail modal */
-    document.getElementById("emodal-info").innerHTML = "Kontaktinformasjon. Klikk for å kopiere.";
-    document.getElementById("c1").innerHTML = "Mobil nummer";
-    document.getElementById("c2").innerHTML = "E-post";
-    document.getElementById("c3").innerHTML = "Hjemmeadresse";
-    document.getElementById("c4").innerHTML = "All kontaktinformasjonen min";
+    document.getElementById("emodal-info").innerHTML = "kontaktinformasjon. Klikk for å kopiere.";
+    document.getElementById("c1").innerHTML = "mobil nummer";
+    document.getElementById("c2").innerHTML = "e-post";
+    document.getElementById("c3").innerHTML = "hjemmeadresse";
+    document.getElementById("c4").innerHTML = "all kontaktinformasjonen min";
     /* contact information column */
-    document.getElementById("info-col-nr").innerHTML = "Mitt nummer";
-    document.getElementById("info-col-sendMe").innerHTML = "Send meg en e-post";
-    document.getElementById("info-col-openModal").innerHTML = "Kopier kontaktinformasjonen min";
+    document.getElementById("info-col-nr").innerHTML = "mitt nummer";
+    document.getElementById("info-col-sendMe").innerHTML = "send meg en e-post";
+    document.getElementById("info-col-openModal").innerHTML = "kopier kontaktinformasjonen min";
     /* about me information column */
     document.getElementById("info-col-aboutMe").innerHTML = "om meg";
     document.getElementById("info-col-am-text").innerHTML = "tekst";
     document.getElementById("info-col-relEduc").innerHTML = "relevant utdanning";
     document.getElementById("info-col-re-text").innerHTML = "tekst";
     /* button links */
-    document.getElementById("portf_b_git").innerHTML = "Min github bruker";
-    document.getElementById("portf_b_sketch").innerHTML = "Min Sketchfab bruker";
-    document.getElementById("portf_b_devi").innerHTML = "Min Deviantart bruker";
+    document.getElementById("portf_b_git").innerHTML = "min github bruker";
+    document.getElementById("portf_b_sketch").innerHTML = "min Sketchfab bruker";
+    document.getElementById("portf_b_devi").innerHTML = "min Deviantart bruker";
     /* project information column */
-    document.getElementById("info-col-projectInfo").innerHTML = "Prosjekt informasjon";
+    document.getElementById("info-col-projectInfo").innerHTML = "prosjekt informasjon";
     /* Github pages project */
-    document.getElementById("Project-githubPages").innerHTML = "Hjemmeside";
+    document.getElementById("Project-githubPages").innerHTML = "hjemmeside";
     document.getElementById("Project-githubPages-description").innerHTML =
-    "Brukte prosjektet til å lære om HTML, CSS og JavaScript. Resultatet ble en hjemmeside som jeg også bruker som CVen min";
+    "brukte prosjektet til å lære om HTML, CSS og JavaScript. Resultatet ble en hjemmeside som jeg også bruker som CVen min";
 }
 
 // open modal button
