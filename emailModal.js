@@ -3,8 +3,8 @@
 const modal = document.getElementsByClassName("email_modal")[0];
 const butt_close = document.getElementsByClassName("close_button")[0];
 const butt_open = document.getElementsByClassName("open_button")[0];
-const lang_no = document.getElementById("lang-no");
-const lang_en = document.getElementById("lang-en");
+//const lang_no = document.getElementById("lang-no");
+//const lang_en = document.getElementById("lang-en");
 
 
 function lang_en() {
