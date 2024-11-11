@@ -181,7 +181,7 @@ a:hover {
     cursor: pointer;
 }
 /*style portfolio buttons*/
-#portf_button {
+.portf_button {
     float: left;
     text-align: center;
 }

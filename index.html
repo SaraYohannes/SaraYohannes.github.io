@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sara Yohannes' resume</title>
+    <title id="page-title">Sara Yohannes' resume</title>
     <!--TODO:link icon for the tab-->
     <link rel="stylesheet" type="text/css" href="frontstylesheet.css"/>
 </head>
@@ -11,18 +11,20 @@
     <!--header: banner picture-->
     <div class="htop">
        <p>HEADER</p>
+        <button id="lang-no">NOR</button>
+        <button id="lang-en">ENG</button>
         <!--TODO: add banner-->
     </div>
 
     <!--e-mail modal-->
     <div class="email_modal">
         <div>
-            <h4 id="specialStyleHead4">My contact information. Click to copy</h4>
+            <h4 id="emodal-info">My contact information. Please click to copy</h4>
             <button class="close_button">&times;</button>
         </div>
-        <button class="copyText_button" id="c1" onclick="copyTextFunction(this.id)">My phone number</button>
-        <button class="copyText_button" id="c2" onclick="copyTextFunction(this.id)">My email address</button>
-        <button class="copyText_button" id="c3" onclick="copyTextFunction(this.id)">My current address</button>
+        <button class="copyText_button" id="c1" onclick="copyTextFunction(this.id)">Phone number</button>
+        <button class="copyText_button" id="c2" onclick="copyTextFunction(this.id)">E-mail</button>
+        <button class="copyText_button" id="c3" onclick="copyTextFunction(this.id)">Home address</button>
         <button class="copyText_button" id="c4" onclick="copyTextFunction(this.id)">All contact information</button>
     </div>
         
@@ -34,17 +36,17 @@
                 <img src="self-portrait_2.jpg" class="self_portrait" />
                 <!--information-->
                 <div class="text_boxes">
-                    <h4>My phone number</h4>
+                    <h4 id="info-col-nr">My phone number</h4>
                     <p>41294755</p>
                 </div>
                 <!--information-->
                 <div class="text_boxes">
-                    <h4>Send me a mail</h4>
+                    <h4 id="info-col-sendMe">Send me a mail</h4>
                     <a href="mailto:sara.seacucumber@gmail.com"><p>sara.seacucumber@gmail.com</p></a>
                 </div>
                 <!--information-->
                 <div class="text_boxes">
-                    <button class="open_button"><h4>Copy my contact info</h4></button>
+                    <button class="open_button"><h4 id="info-col-openModal">Copy my contact info</h4></button>
                 </div>
                 </div>
             </div>
@@ -52,21 +54,21 @@
         <div class="column aboutme_info">
             <div class="content_space">
                 <div class="text_boxes">
-                    <h3>ABOUT ME</h3>
-                    <p>Information</p>
+                    <h3 id="info-col-aboutMe">ABOUT ME</h3>
+                    <p id="info-col-am-text">Information</p>
                 </div>
                 <div class="text_boxes">
-                    <h3>RELEVANT EDUCATION</h3>
-                    <p>Information</p>
+                    <h3 id="info-col-relEduc">RELEVANT EDUCATION</h3>
+                    <p id="info-col-re-text">Information</p>
                     <div class="column">
                         <div>
-                            <a href="https://github.com/SaraYohannes" target="_blank" id="portf_button">My github account</a>
+                            <a class="portf_button" href="https://github.com/SaraYohannes" target="_blank" id="portf_b_git">My github account</a>
                         </div>
                         <div>
-                            <a href="https://www.nrk.no" target="_blank" id="portf_button">This is a sketchfab link?</a>
+                            <a class="portf_button" href="https://www.nrk.no" target="_blank" id="portf_b_sketch">This is a sketchfab link?</a>
                         </div>
                         <div>
-                            <a href="https://www.nrk.no" target="_blank" id="portf_button">This is a deviantart link?</a>
+                            <a class="portf_button" href="https://www.nrk.no" target="_blank" id="portf_b_devi">This is a deviantart link?</a>
                         </div>
                     </div>
                 </div>
@@ -76,15 +78,15 @@
         <div class="column project_info">
             <div class="content_space">
                 <div class="text_boxes">
-                    <h4>Project information</h4>
+                    <h4 id="info-col-projectInfo">Project information</h4>
                 </div>
                 <a id="projectf_button">
                     <div class="text_boxes">
                         <div class="column">
                             <img src="Item_light_parafinlampe_UNUSED_v0.png" class="project_illustration" />
                             <div class="text_boxes">
-                                <h3>A super long name of this fantastic project (one)</h3>
-                                <p>Description of project with link...</p>
+                                <h3 id="Project-githubPages">Homepage project</h3>
+                                <p id="Project-githubPages-description">Used to learn about HTML, CSS, and JavaScript. The result was a homepage which also serve as my resume</p>
                             </div>
                         </div>
                     </div>
