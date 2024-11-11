@@ -8,6 +8,7 @@ const lang_en = document.getElementById("lang-en");
 
 
 function lang_en() {
+    console.log("english function");
     /* meta */
     document.getElementsById("page-title").innerHTML = "Sara Yohanne's resume";
     /* e-mail modal */
@@ -44,6 +45,7 @@ function lang_en() {
 
 }
 function lang_no() {
+    console.log("norsk funksjon");
     /* meta */
     document.getElementsById("page-title").innerHTML = "Sara Yohanne's CV";
     /* e-mail modal */
