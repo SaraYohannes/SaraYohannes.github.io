@@ -199,7 +199,7 @@ a:hover {
     color: black;
     cursor: pointer;
 }
-#lang_buttons{ /*div with language buttons*/
+.lang_buttons { /*div with language buttons*/
     display: flex;
     float: right;
     align-content: center; /*vertical*/
