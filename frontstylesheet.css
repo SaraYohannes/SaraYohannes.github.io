@@ -204,6 +204,9 @@ a:hover {
     float: right;
     align-content: center; /*vertical*/
     justify-items: right; /*horizontal*/
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
 }
 /*
     Text styling
