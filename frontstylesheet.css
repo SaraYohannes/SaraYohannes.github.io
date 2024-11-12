@@ -234,7 +234,6 @@ a:hover {
 @media (max-width: 900px) {
     .column {
         flex-direction: column;
-        justify-content: center;
     }
     .footer {
         height: auto;
