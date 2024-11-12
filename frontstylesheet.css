@@ -18,8 +18,10 @@ body {
 
 /*top, the banner, the top part of the screen*/
 .htop {
-    display: block;
-    right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
     background-color: lightgray;
     height: 200px;
     padding: 70px;
