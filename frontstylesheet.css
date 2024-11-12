@@ -204,10 +204,18 @@ a:hover {
 }
 .lang_buttons { /*div with language buttons*/
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
     align-content: flex-end; /*vertical*/
     justify-items: right; /*horizontal*/
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+}
+#lang-no {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+}
+#lang-en {
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     background-color: transparent;
