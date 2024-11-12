@@ -19,6 +19,7 @@ body {
 /*top, the banner, the top part of the screen*/
 .htop {
     display: flex;
+    right: 50px;
     background-color: lightgray;
     height: 200px;
     padding: 70px;
