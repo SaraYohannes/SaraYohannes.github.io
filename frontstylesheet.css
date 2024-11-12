@@ -200,10 +200,12 @@ a:hover {
     cursor: pointer;
 }
 .lang_buttons { /*div with language buttons*/
-    /*display: flex;*/
+    display: flex;
     float: right;
     align-content: center; /*vertical*/
     justify-items: right; /*horizontal*/
+}
+.button lang_buttons {
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     background-color: transparent;
