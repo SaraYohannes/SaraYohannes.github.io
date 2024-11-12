@@ -204,8 +204,8 @@ a:hover {
 }
 .lang_buttons { /*div with language buttons*/
     display: flex;
-    float: right;
-    align-content: center; /*vertical*/
+    flex-direction: row;
+    align-content: flex-end; /*vertical*/
     justify-items: right; /*horizontal*/
     font-family: Arial, Helvetica, sans-serif;
     border: none;
