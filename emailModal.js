@@ -49,7 +49,7 @@ function lang_no() {
     /* meta */
     document.getElementById("page-title").innerHTML = "Sara Yohanne's CV";
     /* e-mail modal */
-    document.getElementById("emodal-info").innerHTML = "kontaktinformasjon. Klikk for å kopiere.";
+    document.getElementById("emodal-info").innerHTML = "kontaktinformasjon. Klikk for Ã¥ kopiere.";
     document.getElementById("c1").innerHTML = "mobil nummer";
     document.getElementById("c2").innerHTML = "e-post";
     document.getElementById("c3").innerHTML = "hjemmeadresse";
@@ -72,7 +72,7 @@ function lang_no() {
     /* Github pages project */
     document.getElementById("Project-githubPages").innerHTML = "hjemmeside";
     document.getElementById("Project-githubPages-description").innerHTML =
-    "brukte prosjektet til å lære om HTML, CSS og JavaScript. Resultatet ble en hjemmeside som jeg også bruker som CVen min";
+    "brukte prosjektet til Ã¥ lÃ¦re om HTML, CSS og JavaScript. Resultatet ble en hjemmeside som jeg ogsÃ¥ bruker som CVen min";
 }
 
 // open modal button
