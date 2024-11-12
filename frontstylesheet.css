@@ -258,7 +258,11 @@ a:hover {
         width: 95%;
         height: auto;
     }
+    .column .text_boxes .content_space .aboutme_info .column {
+        justify-content: center;
+    }
     #portf_button {
         float: none;
+        
     }
 }
