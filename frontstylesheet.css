@@ -168,7 +168,7 @@ a:hover {
     cursor: pointer;
 }
 /*copy text button*/
-.copyText_button {
+.copytext_button {
     display: block;
     float: left; /*?*/
     background-color: whitesmoke;
@@ -179,7 +179,7 @@ a:hover {
     width: 50%;
     color: darkslategray;
 }
-.copyText_button:hover {
+.copytext_button:hover {
     background-color: lightgray;
     color: black;
     cursor: pointer;
@@ -224,10 +224,6 @@ a:hover {
 /*
     Text styling
 */
-#specialStyleHead4 {
-    display: inline-block;
-    vertical-align: top;
-}
 
 /*
     Media Queries for phone screens
