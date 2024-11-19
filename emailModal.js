@@ -11,6 +11,7 @@ function lang_en() {
     console.log("english function");
     /* meta */
     document.getElementById("page-title").innerHTML = "Sara Yohanne's resume";
+    document.documentElement.lang = "en";
     /* e-mail modal */
     document.getElementById("emodal-info").innerHTML = "my contact information. Please click to copy text.";
     document.getElementById("c1").innerHTML = "phone number";
@@ -46,8 +47,10 @@ function lang_en() {
 }
 function lang_no() {
     console.log("norsk funksjon");
+
     /* meta */
     document.getElementById("page-title").innerHTML = "Sara Yohanne's CV";
+    document.documentElement.lang = "nb";
     /* e-mail modal */
     document.getElementById("emodal-info").innerHTML = "kontaktinformasjon. Klikk for å kopiere.";
     document.getElementById("c1").innerHTML = "mobil nummer";
