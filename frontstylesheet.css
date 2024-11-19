@@ -1,0 +1,265 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+/*
+    entire body
+*/
+body {
+    background-color: white;
+    margin: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/*
+    main sections of the screen
+*/
+
+/*top, the banner, the top part of the screen*/
+.htop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: lightgray;
+    height: 200px;
+    padding: 70px;
+}
+/*describes the properties the picture should have*/
+.banner { 
+    position: center;
+    border-radius: 4px;
+    justify-self: center;
+    max-width: 1740px;
+    height: 200px;
+    padding: 0px;
+}
+/*the middle section of the screen, where all the information is*/
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column.contact_info {
+    background-color: lightgrey;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 17%;
+}
+.content_space {
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+}
+.column.project_info {
+    background-color: lightgray;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 33%;
+}
+.column.aboutme_info {
+    background-color: lightgrey;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+/*
+    bottom part of the screen
+*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    height: 100px;
+}
+
+/*
+    illustration elements
+*/
+.self_portrait { 
+    border-radius: 5px;
+    object-fit: contain;
+    max-width: 90%;
+    margin-top: 10px;
+    height: auto;
+}
+.project_illustration {
+    border-radius: 4px;
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+/*
+    useful elements
+*/
+
+/*adds a textbox where needed*/
+.text_boxes {
+    background-color: whitesmoke;
+    margin: 10px 5px;
+    border: none;
+    padding: 2px;
+    width: 90%;
+    text-align: center;
+}
+/*link types*/
+a:link, a:visited {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: darkgray;
+    margin: 10px;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+/*e-mail modal*/
+.email_modal {
+    display: none;
+    position: fixed;
+    left: 100px;
+    bottom: 150px;
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+    padding: 15px;
+    z-index: 1;
+    width: 30%;
+    height: auto;
+}
+
+/*
+    buttons
+*/
+/*exit modal button*/
+.close_button {
+    right: 15px;
+    position: absolute;
+    background-color: orangered;
+    padding: 0px 5px;
+    border: none;
+    font-size: 28px;
+}
+/*open modal button*/
+.open_button {
+    display: inline-block;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+    color: darkslategray;
+    cursor: pointer;
+}
+.open_button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+/*copy text button*/
+.copyText_button {
+    display: block;
+    float: left; /*?*/
+    background-color: whitesmoke;
+    margin: 10px;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    width: 50%;
+    color: darkslategray;
+}
+.copyText_button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+/*style portfolio buttons*/
+.portf_button {
+    float: left;
+    text-align: center;
+}
+/*style project links/buttons*/
+#projectf_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 95%;
+    height: auto;
+}
+#projectf_button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.lang_buttons { /*div with language buttons*/
+    display: flex;
+    align-content: flex-end; /*vertical*/
+    justify-items: right; /*horizontal*/
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+}
+#lang-no {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+}
+#lang-en {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+}
+/*
+    Text styling
+*/
+#specialStyleHead4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*
+    Media Queries for phone screens
+*/
+@media (max-width: 900px) {
+    .column {
+        flex-direction: column;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .column {
+        flex-direction: row;
+    }
+    .column .project_info .content_space .text_boxes .column {
+        align-items: center;
+    }
+    .column .project_info .content_space .text_boxes .column .project_illustration {
+        order: -1;
+        object-fit: contain;
+        align-self: center;
+    }
+    .column .contact_info .content_space .text_boxes .column .text_boxes {
+        order: 2;
+    }
+    .email_modal {
+        left: 15px;
+        bottom: 50px;
+        width: 95%;
+        height: auto;
+    }
+    #portf_button {
+        float: none;
+    }
+}

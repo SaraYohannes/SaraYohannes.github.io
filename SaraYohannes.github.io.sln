@@ -5,8 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{469F4E7D-70C4-4F73-8646-167F7D1A510F}"
 	ProjectSection(SolutionItems) = preProject
-		frontpage.html = frontpage.html
+		emailModal.js = emailModal.js
 		frontstylesheet.css = frontstylesheet.css
+		index.html = index.html
 	EndProjectSection
 EndProject
 Global

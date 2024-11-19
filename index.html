@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title id="page-title">Sara Yohannes' resume</title>
+    <!--TODO:link icon for the tab-->
+    <link rel="stylesheet" type="text/css" href="frontstylesheet.css"/>
+</head>
+<body>
+    <!--header: banner picture-->
+    <div class="htop">
+       <!--<p>HEADER</p> <!--temp fill-->
+        <div id="lang_buttons">
+            <button id="lang-no" onclick="lang_no()">NOR</button>
+            <p style="display: inline-block"> | </p>
+            <button id="lang-en" onclick="lang_en()">ENG</button>
+        </div>
+        <!--TODO: add banner-->
+    </div>
+
+    <!--e-mail modal-->
+    <div class="email_modal">
+        <div>
+            <h4 id="emodal-info" style="display:inline-block">my contact information. Please click to copy</h4>
+            <button class="close_button">&times;</button>
+        </div>
+        <button class="copyText_button" id="c1" onclick="copyTextFunction(this.id)">phone number</button>
+        <button class="copyText_button" id="c2" onclick="copyTextFunction(this.id)">e-mail</button>
+        <button class="copyText_button" id="c3" onclick="copyTextFunction(this.id)">home address</button>
+        <button class="copyText_button" id="c4" onclick="copyTextFunction(this.id)">all contact information</button>
+    </div>
+        
+    <div class="column">
+        <!--columns - contact info-->
+        <div class="column contact_info">
+            <div class="content_space">
+                <!--picture-->
+                <img src="self-portrait_2.jpg" class="self_portrait" />
+                <!--information-->
+                <div class="text_boxes">
+                    <h4 id="info-col-nr">my phone number</h4>
+                    <p>41294755</p>
+                </div>
+                <!--information-->
+                <div class="text_boxes">
+                    <h4 id="info-col-sendMe">send me a mail</h4>
+                    <a href="mailto:sara.seacucumber@gmail.com?subject=I%20would%20like%20to%20talk%20with%20you"><p>sara.seacucumber@gmail.com</p></a>
+                </div>
+                <!--information-->
+                <div class="text_boxes">
+                    <button class="open_button"><h4 id="info-col-openModal">copy my contact info</h4></button>
+                </div>
+                </div>
+            </div>
+        <!--column 2 - about me-->
+        <div class="column aboutme_info">
+            <div class="content_space">
+                <div class="text_boxes">
+                    <h3 id="info-col-aboutMe">about me</h3>
+                    <p id="info-col-am-text">information</p>
+                </div>
+                <div class="text_boxes">
+                    <h3 id="info-col-relEduc">relevant education</h3>
+                    <p id="info-col-re-text">information</p>
+                    <div class="column">                        
+                            <a class="portf_button" href="https://github.com/SaraYohannes" target="_blank" id="portf_b_git">my github account</a>                        
+                            <a class="portf_button" href="https://www.nrk.no" target="_blank" id="portf_b_sketch">my sketchfab account</a>                        
+                            <a class="portf_button" href="https://www.nrk.no" target="_blank" id="portf_b_devi">my deviantart account</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--column 3 - github projects-->
+        <div class="column project_info">
+            <div class="content_space">
+                <div class="text_boxes">
+                    <h4 id="info-col-projectInfo">project information</h4>
+                </div>
+                <a id="projectf_button">
+                    <div class="text_boxes">
+                        <div class="column">
+                            <img src="Item_light_parafinlampe_UNUSED_v0.png" class="project_illustration" />
+                            <div class="text_boxes">
+                                <h3 id="Project-githubPages">homepage</h3>
+                                <p id="Project-githubPages-description">used this project to learn about HTML, CSS, and JavaScript. The result was a homepage which also serve as my resume</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a id="projectf_button">
+                    <div class="text_boxes">
+                        <div class="column">
+                            <div class="text_boxes">
+                                <h3>Name of project (two)</h3>
+                                <p>Description of project with link...</p>
+                            </div>
+                            <img src="Item_light_parafinlampe_UNUSED_v0.png" class="project_illustration" />
+                        </div>
+                    </div>
+                </a>
+                <a id="projectf_button">
+                    <div class="text_boxes">
+                        <div class="column">
+                            <img src="Item_light_parafinlampe_UNUSED_v0.png" class="project_illustration" />
+                            <div class="text_boxes">
+                                <h3>A super long name of this fantastic project (three)</h3>
+                                <p>Description of project with link...</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--footer - red-->
+    <div class="footer">
+    </div>
+    <script src="emailModal.js" charset="UTF-8"></script> 
+</body>
+</html>
