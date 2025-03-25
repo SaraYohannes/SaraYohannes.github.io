@@ -104,6 +104,7 @@ body {
 /*adds a textbox where needed*/
 .text_boxes {
     background-color: whitesmoke;
+    border-radius: 2px;
     margin: 10px 5px;
     border: none;
     padding: 2px;
@@ -125,6 +126,7 @@ a:hover {
     background-color: lightgray;
     color: black;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 /*e-mail modal*/
@@ -166,6 +168,7 @@ a:hover {
     background-color: lightgray;
     color: black;
     cursor: pointer;
+    border-radius: 2px;
 }
 /*copy text button*/
 .copyText_button {
@@ -202,6 +205,7 @@ a:hover {
     background-color: lightgray;
     color: black;
     cursor: pointer;
+    border-radius: 2px;
 }
 .lang_buttons { /*div with language buttons*/
     display: flex;
